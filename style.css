@@ -1,0 +1,67 @@
+body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.player-container {
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.player-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.controls button {
+    background: #1db954;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.controls button:hover {
+    background: #1ed760;
+}
+.playlist li {
+    padding: 10px;
+    cursor: pointer;
+}
+.playlist li:hover {
+    background: #1db954;
+}
+.playlist .playing {
+    color: #1ed760;
+}
+.search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+.search-results li {
+    padding: 10px;
+    cursor: pointer;
+}
+.search-results li:hover {
+    background: #1db954;
+}
+footer {
+    color: white;
+    margin-top: 20px;
+}
